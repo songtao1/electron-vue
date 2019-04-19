@@ -9,7 +9,6 @@
 <script>
 import { ipcRenderer} from 'electron';
 import { mapActions,mapMutations,mapGetters } from 'vuex';
-import { constants } from 'fs';
   export default {
     name:"login-page",
     data () {
